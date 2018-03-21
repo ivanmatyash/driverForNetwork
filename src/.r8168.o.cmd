@@ -1,0 +1,1 @@
+cmd_/home/imatsiash/Downloads/r8168-8.045.08/src/r8168.o := ld -m elf_x86_64   -r -o /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.o /home/imatsiash/Downloads/r8168-8.045.08/src/r8168_n.o /home/imatsiash/Downloads/r8168-8.045.08/src/r8168_asf.o /home/imatsiash/Downloads/r8168-8.045.08/src/rtl_eeprom.o /home/imatsiash/Downloads/r8168-8.045.08/src/rtltool.o 

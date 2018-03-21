@@ -1,0 +1,1 @@
+cmd_/home/imatsiash/Downloads/r8168-8.045.08/src/r8168.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.ko /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.o /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.mod.o ;  true

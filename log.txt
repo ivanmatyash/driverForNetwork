@@ -1,0 +1,109 @@
+-------------------------------
+Mon Feb 26 12:05:11 +03 2018
+make -C src/ clean
+make[1]: Entering directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C /lib/modules/4.13.0-36-generic/build SUBDIRS=/home/imatsiash/Downloads/r8168-8.045.08/src clean
+make[2]: Entering directory '/usr/src/linux-headers-4.13.0-36-generic'
+make[2]: Leaving directory '/usr/src/linux-headers-4.13.0-36-generic'
+make[1]: Leaving directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C src/ modules
+make[1]: Entering directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C /lib/modules/4.13.0-36-generic/build SUBDIRS=/home/imatsiash/Downloads/r8168-8.045.08/src modules
+make[2]: Entering directory '/usr/src/linux-headers-4.13.0-36-generic'
+  CC [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/r8168_n.o
+  CC [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/r8168_asf.o
+  CC [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/rtl_eeprom.o
+  CC [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/rtltool.o
+  LD [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.mod.o
+  LD [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.ko
+make[2]: Leaving directory '/usr/src/linux-headers-4.13.0-36-generic'
+make[1]: Leaving directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C src/ install
+make[1]: Entering directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C /lib/modules/4.13.0-36-generic/build SUBDIRS=/home/imatsiash/Downloads/r8168-8.045.08/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory '/usr/src/linux-headers-4.13.0-36-generic'
+  INSTALL /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.ko
+  DEPMOD  4.13.0-36-generic
+make[2]: Leaving directory '/usr/src/linux-headers-4.13.0-36-generic'
+make[1]: Leaving directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+-------------------------------
+Mon Feb 26 12:05:39 +03 2018
+make -C src/ clean
+make[1]: Entering directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C /lib/modules/4.13.0-36-generic/build SUBDIRS=/home/imatsiash/Downloads/r8168-8.045.08/src clean
+make[2]: Entering directory '/usr/src/linux-headers-4.13.0-36-generic'
+  CLEAN   /home/imatsiash/Downloads/r8168-8.045.08/src/.tmp_versions
+  CLEAN   /home/imatsiash/Downloads/r8168-8.045.08/src/Module.symvers
+make[2]: Leaving directory '/usr/src/linux-headers-4.13.0-36-generic'
+make[1]: Leaving directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C src/ modules
+make[1]: Entering directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C /lib/modules/4.13.0-36-generic/build SUBDIRS=/home/imatsiash/Downloads/r8168-8.045.08/src modules
+make[2]: Entering directory '/usr/src/linux-headers-4.13.0-36-generic'
+  CC [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/r8168_n.o
+  CC [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/r8168_asf.o
+  CC [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/rtl_eeprom.o
+  CC [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/rtltool.o
+  LD [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.mod.o
+  LD [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.ko
+make[2]: Leaving directory '/usr/src/linux-headers-4.13.0-36-generic'
+make[1]: Leaving directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C src/ install
+make[1]: Entering directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C /lib/modules/4.13.0-36-generic/build SUBDIRS=/home/imatsiash/Downloads/r8168-8.045.08/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory '/usr/src/linux-headers-4.13.0-36-generic'
+  INSTALL /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.ko
+  DEPMOD  4.13.0-36-generic
+make[2]: Leaving directory '/usr/src/linux-headers-4.13.0-36-generic'
+make[1]: Leaving directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+-------------------------------
+Wed Mar 21 10:17:35 +03 2018
+make -C src/ clean
+make[1]: Entering directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C /lib/modules/4.13.0-37-generic/build SUBDIRS=/home/imatsiash/Downloads/r8168-8.045.08/src clean
+make[2]: Entering directory '/usr/src/linux-headers-4.13.0-37-generic'
+  CLEAN   /home/imatsiash/Downloads/r8168-8.045.08/src/.tmp_versions
+Makefile:1595: recipe for target 'clean' failed
+make[2]: Leaving directory '/usr/src/linux-headers-4.13.0-37-generic'
+Makefile:108: recipe for target 'clean' failed
+make[1]: Leaving directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+Makefile:47: recipe for target 'clean' failed
+-------------------------------
+Wed Mar 21 10:17:43 +03 2018
+make -C src/ clean
+make[1]: Entering directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C /lib/modules/4.13.0-37-generic/build SUBDIRS=/home/imatsiash/Downloads/r8168-8.045.08/src clean
+make[2]: Entering directory '/usr/src/linux-headers-4.13.0-37-generic'
+  CLEAN   /home/imatsiash/Downloads/r8168-8.045.08/src/.tmp_versions
+  CLEAN   /home/imatsiash/Downloads/r8168-8.045.08/src/Module.symvers
+make[2]: Leaving directory '/usr/src/linux-headers-4.13.0-37-generic'
+make[1]: Leaving directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C src/ modules
+make[1]: Entering directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C /lib/modules/4.13.0-37-generic/build SUBDIRS=/home/imatsiash/Downloads/r8168-8.045.08/src modules
+make[2]: Entering directory '/usr/src/linux-headers-4.13.0-37-generic'
+  CC [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/r8168_n.o
+  CC [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/r8168_asf.o
+  CC [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/rtl_eeprom.o
+  CC [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/rtltool.o
+  LD [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.mod.o
+  LD [M]  /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.ko
+make[2]: Leaving directory '/usr/src/linux-headers-4.13.0-37-generic'
+make[1]: Leaving directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C src/ install
+make[1]: Entering directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
+make -C /lib/modules/4.13.0-37-generic/build SUBDIRS=/home/imatsiash/Downloads/r8168-8.045.08/src INSTALL_MOD_DIR=kernel/drivers/net/ethernet/realtek modules_install
+make[2]: Entering directory '/usr/src/linux-headers-4.13.0-37-generic'
+  INSTALL /home/imatsiash/Downloads/r8168-8.045.08/src/r8168.ko
+  DEPMOD  4.13.0-37-generic
+make[2]: Leaving directory '/usr/src/linux-headers-4.13.0-37-generic'
+make[1]: Leaving directory '/home/imatsiash/Downloads/r8168-8.045.08/src'
